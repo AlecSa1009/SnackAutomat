@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackAutomat.Android", "SnackAutomat\SnackAutomat.Android\SnackAutomat.Android.csproj", "{CB5FE3A5-C272-4381-934E-8B8793327F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackAutomat", "SnackAutomat\SnackAutomat\SnackAutomat.csproj", "{CF6814AB-E4B1-47F5-B50E-DBA4349BD5C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5FE3A5-C272-4381-934E-8B8793327F92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CF6814AB-E4B1-47F5-B50E-DBA4349BD5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6814AB-E4B1-47F5-B50E-DBA4349BD5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6814AB-E4B1-47F5-B50E-DBA4349BD5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6814AB-E4B1-47F5-B50E-DBA4349BD5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58668759-6726-41F9-BC2D-38D6F24B3EE4}
+	EndGlobalSection
+EndGlobal
