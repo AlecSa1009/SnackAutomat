@@ -27,7 +27,7 @@ namespace SnackAutomat
         }
         public async void InfoClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Zusammenfassung aller Sachen die wir übernommen haben", "1.Bluetooth Bibliothek, 2....","Schließen");
+            await DisplayAlert("Informationen", "1.Bluetooth Bibliothek, 2....","Schließen");
             
         }
 

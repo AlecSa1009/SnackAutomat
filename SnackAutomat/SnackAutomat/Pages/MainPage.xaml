@@ -32,10 +32,11 @@
                     HorizontalOptions="End"
                     Clicked="MenueClicked"/>
 
-            <ImageButton Source="@drawable/bluetooth.png"
-                    x:Name="ImageButton_B"
+            <Button Text="B"
                     Grid.ColumnSpan="2"     
                     Grid.Row="0"
+                    CornerRadius="20"
+                    FontSize="20"
                     HorizontalOptions="Start"
                     Clicked="BMenue"/>
 
@@ -46,9 +47,10 @@
                    Style="{DynamicResource TitleStyle}"
                    Grid.ColumnSpan="2"
                    Grid.Row="1"
-                   TextColor="DarkBlue"
+                   TextColor="#292929"
+                   FontAttributes="Bold"
                    FontSize="45"
-                   BackgroundColor="Gray"/>
+                   BackgroundColor="White"/>
 
             <Label Grid.ColumnSpan="2"
                    Grid.Row="2"/>
@@ -56,37 +58,69 @@
             <Button Text="Bounty"
                     Grid.Column="0"
                     Grid.Row="3"
-                    FontSize="15"
+                    FontSize="17.5"
+                    TextColor="#00BFFF"
+                    FontAttributes="Bold"
+                    BackgroundColor="#434343"
+                    BorderColor="#595959"
+                    BorderWidth="10"
+                    CornerRadius="5"
                     Command="{Binding BuyMarsCommand}"/>
             
             <Button Text="Mars"
                     Grid.Column="0"
                     Grid.Row="4"
-                    FontSize="15"
+                    FontSize="17.5"
+                    TextColor="#00BFFF"
+                    FontAttributes="Bold"
+                    BackgroundColor="#434343"
+                    BorderColor="#595959"
+                    BorderWidth="10"
+                    CornerRadius="5"
                     Command="{Binding BuyBountyCommand}"/>
            
             <Button Text="Snickers"
                     Grid.Column="1"
                     Grid.Row="3"
-                    FontSize="15"
+                    FontSize="17.5"
+                    TextColor="#00BFFF"
+                    FontAttributes="Bold"
+                    BackgroundColor="#434343"
+                    BorderColor="#595959"
+                    BorderWidth="10"
+                    CornerRadius="5"
                     Command="{Binding BuySnickersCommand}"/>
 
             <Button Text="Kinder Riegel"
                     Grid.Column="1"
                     Grid.Row="4"
-                    FontSize="15"
+                    FontSize="17.5"
+                    TextColor="#00BFFF"
+                    FontAttributes="Bold"
+                    BackgroundColor="#434343"
+                    BorderColor="#595959"
+                    BorderWidth="10"
+                    CornerRadius="5"
                     Command="{Binding BuyKinderRCommand}"/>
 
         </Grid>
 
         <Button Text="Info"
-                CornerRadius="20"
+                CornerRadius="5"
                 VerticalOptions="Center"
-                HorizontalOptions="End"
+                HorizontalOptions="Center"
+                TextColor="#00BFFF"
+                FontAttributes="Bold"
+                BackgroundColor="#434343"
+                BorderColor="#595959"
+                BorderWidth="10"
                 Clicked="InfoClicked"/>
-
-        <Label Text="Made by Jade und Alec"
+    
+        <Label Text="-------------------------------------------------Made by Jade and Alec-------------------------------------------------"
                VerticalOptions="Center"
+               TextColor="#292929"
+               FontSize="10"
+               BackgroundColor="White"
                HorizontalOptions="Center"/>
         
     </StackLayout>
