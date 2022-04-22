@@ -18,20 +18,26 @@ namespace SnackAutomat.ViewModels
    public class MainpageViewModel 
     {
         //Logik hinter den Buttons z.b.
-        /*public MainpageViewModel()
+
+
+        public MainpageViewModel()
         {
-        DependencyService.get<>
-        }*/
+        }
+
+
 
         public ICommand BuyMarsCommand => new Command(async () => await BuyAsync(Snacks.Mars)); //async & await c#// damit die App ned blockiert ist, sondern das es im hintergund auch was anderes laufen kann
         public ICommand BuySnickersCommand => new Command(async () => await BuyAsync(Snacks.Snickers));
         public ICommand BuyBountyCommand => new Command(async () => await BuyAsync(Snacks.Bounty));
         public ICommand BuyKinderRCommand => new Command(async () => await BuyAsync(Snacks.KinderR));
-
+       
         private async Task BuyAsync(Snacks snack) 
         { 
-            
+           
         }
+
+
+
 
     }
 }

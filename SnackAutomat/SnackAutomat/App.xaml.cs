@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SnackAutomat.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,9 @@ namespace SnackAutomat
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+
+            MainPage = new NavigationPage(new MainPage());
+            
         }
 
         protected override void OnStart()
